@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Визитка</title>
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/aos.css">
+</head>
+
+<body class="bg-gradient-to-br from-[#1f1f1f] via-[#2c4d7a] to-[#8735b0]
+    animate-gradient">
+    <header class="py-5">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-end">
+                <button id="js-share" type="button" class="pr-3">
+                    <img src="./svg/share-square.svg" alt="share" class="w-6 h-6" />
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="min-w-[320px] mx-auto pb-10">
+        <div class="container px-4 mx-auto flex flex-col items-center">
+            <!-- Аватар -->
+            <div data-aos="fade-up" data-aos-duration="2000"
+                class="w-[130px] h-[130px] rounded-full overflow-hidden shadow-xl shadow-black/40 mb-10">
+                <img class="w-full h-full object-cover" src="./svg/лого.jpeg" alt="Аватар">
+            </div>
+
+            <!-- Заголовок -->
+            <h1 data-aos="fade-up" data-aos-duration="2000"
+                class="text-3xl font-extrabold text-center text-[#fefefe] drop-shadow-xl mb-10">
+                Придурки из PUBG
+            </h1>
+
+            <!-- Район / Геопозиция -->
+            <h4 data-aos="fade-up" data-aos-duration="2000" class="text-2xl font-extrabold text-center bg-clip-text text-transparent 
+                        bg-gradient-to-r from-[#4a59ff] via-[#15c1cb] to-[#ffffff]
+
+                        animate-gradientText drop-shadow-lg mb-10">
+                Массив Сергели-2
+            </h4>
+
+            <!-- Описание -->
+            <p data-aos="fade-up" data-aos-duration="2000"
+                class="text-[#fefefe] leading-relaxed text-center px-2 mb-6 drop-shadow">
+                Тут должно быть что-то интересное, но у меня не хватает фантазии! Одни пылесосы, есть же!
+            </p>
+
+            <section>
+                <ul id="js-cart" class="flex flex-col gap-10">
+
+                    <!-- Имя -->
+                    <li data-aos="fade-up" data-aos-duration="2000" class="flex flex-col items-center gap-4">
+                        <h4 class="text-2xl font-extrabold text-center bg-clip-text text-transparent 
+                        bg-gradient-to-r from-[#8d9cf4] via-[#7bcdd1] to-[#fefefe] 
+                        animate-gradientText drop-shadow-lg">
+                            Владислав
+                        </h4>
+                    </li>
+
+                    <!-- Кнопки -->
+                    <li data-aos="fade-up" data-aos-duration="2000" class="border border-white/40 rounded-xl px-10 py-3 
+                    bg-white/10 backdrop-blur-md shadow-md 
+                    hover:bg-white/20 transition-all duration-300 cursor-pointer">
+                        <a href="https://t.me/AdibayVladik" target="_blank"
+                            class="flex items-center gap-4 text-white text-lg font-medium">
+                            <img src="./svg/telegram-paper-airplane-apps-svgrepo-com.svg" alt="Telegram"
+                                class="w-10 h-10" />
+                            <div class="w-[1px] h-6 bg-white/40 mx-10"></div>
+                            <span class="text-white font-semibold drop-shadow-md">
+                                Телеграм
+                            </span>
+                        </a>
+                    </li>
+
+                    <li data-aos="fade-up" data-aos-duration="2000" class="border border-white/40 rounded-xl px-10 py-3 
+                    bg-white/10 backdrop-blur-md shadow-md 
+                    hover:bg-white/20 transition-all duration-300 cursor-pointer">
+                        <a href="https://www.instagram.com/vladoc_97/" target="_blank"
+                            class="flex items-center gap-4 text-white text-lg font-medium">
+                            <img src="./svg/instagram-1-svgrepo-com.svg" alt="Instagram" class="w-10 h-10" />
+                            <div class="w-[1px] h-6 bg-white/40 mx-10"></div>
+                            <span class="text-white font-semibold drop-shadow-md">
+                                Инстаграм
+                            </span>
+                        </a>
+                    </li>
+
+                    <li data-aos="fade-up" data-aos-duration="2000" class="border border-white/40 rounded-xl px-10 py-3 
+                    bg-white/10 backdrop-blur-md shadow-md 
+                    hover:bg-white/20 transition-all duration-300 cursor-pointer">
+                        <a href="tel:+998901234567" class="flex items-center gap-4 text-white text-lg font-medium">
+                            <img src="./svg/telephone-call-mic-svgrepo-com.svg" alt="Телефон" class="w-10 h-10" />
+                            <div class="w-[1px] h-6 bg-white/40 mx-10"></div>
+                            <span class="text-white font-semibold drop-shadow-md">
+                                901234567
+                            </span>
+                        </a>
+                    </li>
+                    <li data-aos="fade-up" data-aos-duration="2000" class="border border-white/40 rounded-xl px-10 py-3 
+                    bg-white/10 backdrop-blur-md shadow-md 
+                    hover:bg-white/20 transition-all duration-300 cursor-pointer">
+                        <button class="flex items-center gap-4 text-white text-lg font-medium">
+                            <img src="./svg/address.svg" alt="Телефон" class="w-10 h-10" />
+                            <div class="w-[1px] h-6 bg-white/40 mx-10"></div>
+                            <span class="text-white font-semibold drop-shadow-md">
+                                Сергели-2
+                            </span>
+                        </button>
+                    </li>
+                </ul>
+            </section>
+
+        </div>
+    </main>
+    <footer data-aos="fade-up" data-aos-duration="2000" class=" pb-25">
+        <div class="container mx-auto px-4">
+            <a href="https://t.me/AdibayVladik" target="_blank" class="block text-center text-white text-lg font-semibold">
+                tg: FlashLink
+            </a>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss-browser/4.1.13/index.global.min.js"
+        integrity="sha512-TscjjxDy2iXx5s55Ar78c01JDHUug0K5aw4YKId9Yuocjx3ueX/X9PFyH5XNRVWqagx3TtcQWQVBaHAIPFjiFA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./data/data.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/aos.js"></script>
+    <script src="./js/aosInit.js"></script>
+</body>
+
+</html>
