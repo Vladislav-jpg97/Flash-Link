@@ -82,7 +82,7 @@ window.addEventListener("DOMContentLoaded", () => {
                 navigator.share({
                     title: "Моя Визитка",
                     text: "Подельиться ссылкой : PuBG",
-                    url: "https://vladislav-jpg97.github.io/Business-card/"
+                    url: "https://vladislav-jpg97.github.io/Flash-Link/"
                 })
 
             }
@@ -93,3 +93,4 @@ window.addEventListener("DOMContentLoaded", () => {
     }
     buttonShare()
 });
+
